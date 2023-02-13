@@ -1,8 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+
+
+
+
+
+
   <head>
     <meta charset="utf-8">
-    <title>dagny reese</title>
+    <title>quilts!</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
@@ -13,24 +66,52 @@
   
   <body>
     
-  <h1>dagny reese</h1>
+  <h1>dagny reese: quilt portfolio</h1>
+
+    <!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="/images/wedding.jpg" style="width:100%">
+    <img src="/images/rocks.jpg" style="width:100%">
+    <img src="/images/falls2.jpg" style="width:100%">
+    <img src="/images/paris.jpg" style="width:100%">
+    <img src="/images/nature.jpg" style="width:100%">
+    <img src="/images/mist.jpg" style="width:100%">
+    <img src="/images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/images/underwater.jpg" style="width:100%">
+    <img src="/images/ocean.jpg" style="width:100%">
+    <img src="/images/wedding.jpg" style="width:100%">
+    <img src="/images/mountainskies.jpg" style="width:100%">
+    <img src="/images/rocks.jpg" style="width:100%">
+    <img src="/images/underwater.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="/images/wedding.jpg" style="width:100%">
+    <img src="/images/rocks.jpg" style="width:100%">
+    <img src="/images/falls2.jpg" style="width:100%">
+    <img src="/images/paris.jpg" style="width:100%">
+    <img src="/images/nature.jpg" style="width:100%">
+    <img src="/images/mist.jpg" style="width:100%">
+    <img src="/images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/images/underwater.jpg" style="width:100%">
+    <img src="/images/ocean.jpg" style="width:100%">
+    <img src="/images/wedding.jpg" style="width:100%">
+    <img src="/images/mountainskies.jpg" style="width:100%">
+    <img src="/images/rocks.jpg" style="width:100%">
+    <img src="/images/underwater.jpg" style="width:100%">
+  </div>
+</div>
+
+
 
     <h2>about</h2>
     
     <p>I am a current MMSc Immunology Student at HMS interested in innate immunology, NK cell biology, and host-pathogen interaction in the context of chronic infection. Previously, I completed my BSc in Biomedical Sciences and Drug Mechanisms at UCL. My BSc dissertation project at the <a href="reevescmvlab.com">Reeve's Lab</a> was on the induction of adaptive-like and tissue resident traits in circulating NK cells in the context of HCMV infection. Prior to that, I was a research assistant at the Biozone Lab for Metabolic Systems Engineering at the University of Toronto's Department of Chemical Engineering.</p>
       
-    <h2>links</h2>
-    <ul>
-      <li><a href="mailto:dagnyreese@hms.harvard.edu">email</a></li>
-      <li><a href="https://twitter.com/dagny416">twitter</a></li>
-    </ul>
-      
-    <h2>past projects</h2>
-    <ul>
-      <li>Inducing a Tissue Resident Phenotype in Circulating NK Cells (@ UCL)</li>
-      <li>Potential Clinical Usage of Interferon Gamma as An Antiviral Therapy (@ UCL)</li>
-      <li>Production of Cis-3-hexen-1-ol in Saccharomyces Cerevisiae (@ Biozone Lab)</li>
-    </ul>
       
   </body>
 </html>
