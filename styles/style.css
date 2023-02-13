@@ -1,0 +1,89 @@
+html {
+  font-size: 10px;
+  font-family: 'Lucida', monospace;
+}
+
+/* main title */
+h1 {
+  font-size: 30px;
+  text-align: left;
+  color: #003A6F;
+}
+
+h1 {
+  margin: 0;
+  padding: 45px 0 0 0;
+  color: #003A6F;
+}
+
+/* subtitles */
+h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #003A6F;
+}
+
+/* paragraph */
+p, li {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  color: #003A6F;
+}
+
+
+html {
+  background-color: #FFF8DD;
+}
+
+/* body containing site contents */
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FFF8DD;
+  padding: 10px 20px 20px 20px;
+}
+
+/* formatting for profile image, not being used at moment */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+  .container {
+  display: flex;
+  align-items: top;
+  justify-content: flex-start;
+}
+
+.pic {
+  max-width: 30px;
+}
+
+.text {
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+
+/* styling the links */
+
+a:link {
+  color: #0061FF;
+}
+
+a:visited {
+  color: #0061FF;
+}
+
+a:hover {
+  color: #D80000;
+}
+
+a:active {
+  color: #EAA300;
+}
